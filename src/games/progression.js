@@ -9,8 +9,9 @@ const progressionGame = () => {
   // Функция для случайной прогрессии
   const getProgression = (a, d, length) => {
     const result = [a];
+    let sum = a;
     for (let i = 0; i < length - 1; i += 1) {
-      result.push(a += d);
+      result.push(sum += d);
     }
     return result;
   };
