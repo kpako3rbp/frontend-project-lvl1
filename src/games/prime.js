@@ -1,11 +1,11 @@
 import readlineSync from 'readline-sync';
 import {
-  getRandomNum, isEven,
+  getRandomNum, isPrime,
 } from '../helpers.js';
 
-const evenGame = () => {
+const primeGame = () => {
   const randomNum = getRandomNum(0, 100);
-  const result = isEven(randomNum);
+  const result = isPrime(randomNum);
 
   console.log(`Question: ${randomNum}`);
 
@@ -14,4 +14,4 @@ const evenGame = () => {
   return [result, answer];
 };
 
-export default evenGame;
+export default primeGame;

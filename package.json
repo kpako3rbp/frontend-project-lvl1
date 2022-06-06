@@ -8,7 +8,8 @@
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
     "brain-gcd": "bin/brain-gcd.js",
-    "brain-progression": "bin/brain-progression.js"
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
   },
   "main": "index.js",
   "scripts": {
@@ -26,6 +27,7 @@
   "homepage": "https://github.com/kpako3rbp/frontend-project-lvl1#readme",
   "dependencies": {
     "@hexlet/pairs": "^1.1.1",
+    "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {

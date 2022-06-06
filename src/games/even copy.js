@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 import readlineSync from 'readline-sync';
 
 // Функция для рандомного числа
@@ -49,4 +38,3 @@ const evenGame = () => {
 };
 
 export default evenGame;
-

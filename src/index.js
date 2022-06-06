@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-export const gameTemplate = (rules, game) => {
+const gameTemplate = (rules, game) => {
   const gameRounds = 3;
 
   // Приветствие и запрос имени
@@ -10,10 +10,9 @@ export const gameTemplate = (rules, game) => {
 
   console.log(rules);
 
-  for (let i = 0; i < gameRounds; i += 1) {  
-    
-    const [result, answer] = game();  
-    
+  for (let i = 0; i < gameRounds; i += 1) {
+    const [result, answer] = game();
+
     if (result === answer) {
       console.log('Correct!');
     } else {
@@ -23,6 +22,4 @@ export const gameTemplate = (rules, game) => {
   return console.log(`Congratulations, ${userName}!`);
 };
 
-
-
-
+export default gameTemplate;
