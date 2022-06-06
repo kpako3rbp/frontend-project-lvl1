@@ -3,8 +3,8 @@ import _ from 'lodash';
 import { getRandomNum } from '../helpers.js';
 
 const gcdGame = () => {
-  const randomNum1 = getRandomNum(0, 100);
-  const randomNum2 = getRandomNum(0, 100);
+  const randomNum1 = getRandomNum(1, 100);
+  const randomNum2 = getRandomNum(1, 100);
 
   console.log(`Question: ${randomNum1} ${randomNum2}`);
 
