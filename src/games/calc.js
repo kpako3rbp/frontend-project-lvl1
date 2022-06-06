@@ -5,8 +5,8 @@ import {
 
 
 const calcGame = () => {    
-    const randomNum1 = getRandomNum(100);
-    const randomNum2 = getRandomNum(100);
+    const randomNum1 = getRandomNum(0, 100);
+    const randomNum2 = getRandomNum(0, 100);
     const randomOperator = getRandomOperator(['+', '-', '*']);
     let result;
 
